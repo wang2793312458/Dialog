@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null">
+    <LinearLayout
+        android:id="@+id/ll_logoualog_accept_order_success_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_dialog"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="#fff"
+        android:padding="5dp"
+        android:maxLines="2"
+        android:text="jinggao"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="#fff"
+        android:padding="5dp"
+        android:maxLines="2"
+        android:text="你正在进行危险操作"
+        android:textColor="#9000"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#ccc"
+        android:layout_below="@+id/tv_message"
+        />
+
+
+    <LinearLayout
+        android:layout_below="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_butten"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="确定"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

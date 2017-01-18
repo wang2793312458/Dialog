@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_logoualog_accept_order_success_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_dialog"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="你好"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="28sp"
+            android:textColor="#0a0909"
+            android:layout_marginTop="22dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_fail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电视剧啊大大所多撒多撒"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#9f9f9f"
+            android:layout_marginTop="20dp"
+            />
+
+        <View
+            android:id="@+id/v_logoutdialog_accept_order_success_line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="23dp"
+            android:background="#9f9f9f"
+            />
+
+
+        <Button
+            android:id="@+id/btn_fail2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_butten"
+            android:text="确定"
+            android:textSize="16sp"
+            android:textColor="#9f9f9f"
+            />
+    </LinearLayout>
+</LinearLayout>
